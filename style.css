@@ -135,7 +135,7 @@ a:hover {
 
 @media (max-width: 1024px) {
   .container-principal {
-    width: 50%;
+    width: 100vh;
     max-width: 26rem;
   }
 
