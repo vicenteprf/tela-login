@@ -24,7 +24,7 @@ main {
   width: 100vh;
   max-width: 26rem;
   padding: 1.5rem;
-  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 1rem #ffffff1f;
   border-radius: 1rem;
   backdrop-filter: blur(0.5rem);
 }
@@ -152,6 +152,11 @@ a:hover {
 }
 
 @media (max-width: 640px) {
+  .container-principal {
+    width: 100vh;
+    max-width: 22rem;
+  }
+
   #titulo {
     font-size: 1.25rem;
   }
@@ -159,6 +164,7 @@ a:hover {
   .container-checkbox {
     font-size: 0.6rem;
   }
+
   .container-cadastre-se {
     font-size: 0.6rem;
   }
